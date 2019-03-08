@@ -1,0 +1,370 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+
+	
+}
+
+/*header start*/
+
+header{
+	height: 118px;
+	width: 100%;
+	background-color: white;
+}
+.banner{
+	width: 90%;
+	height: 118px;
+	background-color: white;
+	margin: 0 auto;
+	display: flex;
+
+}
+.logo{
+	width: 20%;
+	height: 118px;
+	background: url(img/park.png);
+	background-repeat: no-repeat;
+	border-color: white;
+	float: left;
+
+
+}
+
+/*nav section start*/
+
+.nav{
+	width: 85%;
+	height: 90px;
+	background-color: white;
+	float: left;
+	display: inline-table;
+	margin-top: 18px;
+
+
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	color: #2a2a2e;
+
+}
+nav ul li a:hover{
+	background-color: #F1770B;
+	border-radius: 10px;
+}
+nav ul li ul li{
+	display: none;
+}
+nav ul li:hover ul li{
+	display: block;
+	
+}
+/*nav section end*/
+ 
+ /*content 1 start*/
+ .content-1{
+ 	width: 100%;
+ 	height: 650px;
+ 	background-color: gainsboro;
+ }
+
+
+
+
+
+
+ .ban-img{
+ 	width: 100%;
+ 	height: 500px;
+ 	background: url(img/des.jpg);
+ }
+h1{
+	font-size: 60px;
+    margin-left: 420px;
+    margin-top: 130px;
+    position: absolute;
+   	color: dimgrey;
+}
+.bio{
+	font-size: 33px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 409px;
+    color: dimgrey;
+}
+p{
+	float: left;
+	margin-top: 365px;
+}
+p a{
+	text-decoration: none;
+	color: dimgrey;
+	margin-left: 10px;
+	margin-right: 20px;
+
+
+}
+p a:hover{
+	color: #ff5733;
+	transition: 0.4s;
+}
+.profile{
+	height: 200px;
+	width: 200px;
+	background: url(img/profile.jpg);
+	margin-left: 650px;
+    margin-top: -95px;
+    border-radius: 50%;
+    
+}
+/*content -1 end*/
+
+/*content-2 start*/
+
+.content-2{
+	width: 100%;
+	height: 800px;
+	background-color: white;
+
+
+}
+.con-2-image{
+	width: 80%;
+	height: 450px;
+	background: url(img/paris.jpg);
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-color: red;
+	background-size: cover;
+
+	
+}
+.con-2-text{
+	width: 80%;
+	height: 300px;
+	background-color: white;
+	margin: 0 auto;
+}
+i{
+	margin-left: 380px;
+	font-size: 20px;
+
+}
+h3{
+	margin-left: 277px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+b{
+	display: block;
+    margin-top: 19px;
+    
+}
+mark{
+	color: blue;
+}
+.insta{
+	 margin-left: 1100px;
+    margin-top: 2px;
+    position: absolute;
+    color: dimgrey;
+
+}
+.facebook{
+	    margin-left: 1000px;
+	    color: dimgrey;
+	    position: absolute;
+
+}
+.twitter{
+	margin-left: 1045px;
+    position: absolute;
+    color: dimgrey;
+}
+
+.facebook:hover{
+	color:  #3b5999;
+	transition: 0.4s;
+	transform: scale(1.2);
+
+}
+.twitter:hover{
+	color: #55acee;
+	transition: 0.4s;
+	transform: scale(1.2);
+}
+.insta:hover{
+	color: red;
+	transition: 0.4s;
+	transform: scale(1.2);
+}
+/*section 2end*/
+
+/*section 3 start*/
+
+.content-3{
+	width: 100%;
+	height: 800px;
+	background-color: white;
+
+
+}
+.con-3-image{
+	width: 80%;
+	height: 450px;
+	background: url(img/pen.png);
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-color: red;
+	background-size: cover;
+
+	
+}
+.con-3-text{
+	width: 80%;
+	height: 300px;
+	background-color: white;
+	margin: 0 auto;
+}
+i{
+	margin-left: 380px;
+	font-size: 20px;
+
+}
+h3{
+	margin-left: 277px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+b{
+	display: block;
+    margin-top: 19px;
+    
+}
+mark{
+	color: blue;
+}
+
+/*section 3 end*/
+
+/*section 4 start*/
+.content-4{
+	width: 100%;
+	height: 800px;
+	background-color: white;
+}
+.con-4-image{
+	width: 80%;
+	height: 450px;
+	background: url(img/mountain.jpg);
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-color: red;
+	background-size: cover;
+
+	
+}
+.con-4-text{
+	width: 80%;
+	height: 300px;
+	background-color: white;
+	margin: 0 auto;
+}
+i{
+	margin-left: 380px;
+	font-size: 20px;
+
+}
+h3{
+	margin-left: 277px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+b{
+	display: block;
+    margin-top: 19px;
+    
+}
+mark{
+	color: blue;
+}
+
+/*section 4 end*/
+ 
+ footer{
+ 	height: 200px;
+ 	width: 100%;
+ 	background-color: whitesmoke;
+ }
+ strong{
+ 	    margin-left: 618px;
+ 	    margin-top: 135px;
+    	position: absolute;
+ }
+ button{
+ 	margin-left: 720px;
+    position: absolute;
+    width: 115px;
+    height: 26px;
+    border-radius: 20px;
+    margin-top: 164px;
+    border: 1px solid;
+    border-color: dimgrey;
+    background-color: dimgrey;
+
+ }
+ button a{
+ 	color: #ff5733;
+ 	text-decoration: none;
+ }
+.instaa{
+	margin-left: 770px;
+    position: absolute;
+    margin-top: 70px;
+    color: #55acee;
+
+}
+.facebookk{
+	margin-left: 690px;
+    position: absolute;
+    margin-top: 70px;
+    color:  #3b5998;
+
+}
+.twitterr{
+	margin-left: 725px;
+    position: absolute;
+    margin-top: 70px;
+    color: #55acee;
+
+}
+.twitterr:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.facebookk:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.instaa:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
